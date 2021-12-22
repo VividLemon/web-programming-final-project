@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{document.getElementById("mobile-nav-button").addEventListener("click",(function(){const e=document.getElementById("main-nav"),n=window.getComputedStyle(e).display;e.style.display="none"==n?"block":"none"}))});
